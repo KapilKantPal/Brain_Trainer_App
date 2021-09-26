@@ -82,9 +82,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onTick(long l) {
                 if(l<10000){
-                    timerView.setText("0"+l/1000+"s");
+                    timerView.setText("0"+l/1000+" "+getString(R.string.second));
                 }else{
-                    timerView.setText(l/1000+"s");
+                    timerView.setText(l/1000+" "+getString(R.string.second));
                 }
 
             }
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                 timerView.setText("00s");
                 optEnable(false);
                 result.setEnabled(true);
-                result.setText("Tap to play!");
+                result.setText(R.string.tap_to_play);
             }
         };
     }
@@ -111,9 +111,9 @@ public class MainActivity extends AppCompatActivity {
             }
             if(tag == Integer.parseInt(x)){
                 score++;
-                result.setText("Correct :)");
+                result.setText(R.string.correct);
             }else{
-                result.setText("Wrong :(");
+                result.setText(R.string.inCorrect);
             }
             final Animation animation = AnimationUtils.loadAnimation(this,R.anim.bounce);
             optView.startAnimation(animation);

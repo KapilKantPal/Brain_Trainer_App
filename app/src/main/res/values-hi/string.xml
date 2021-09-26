@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ब्रेन ट्रेनर ऐप</string>
+    <string name="Time_30">30सेकंड</string>
+    <string name="initial_score">0/0</string>
+    <string name="go">चलें</string>
+    <string name="second">सेकंड</string>
+    <string name="tap_to_play">खेलने के लिए दबाओ</string>
+    <string name="correct">सही :)</string>
+    <string name="inCorrect">ग़लत :(</string>
+
+</resources>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Brain Trainer App</string>
+    <string name="Time_30">30s</string>
+    <string name="initial_score">0/0</string>
+    <string name="go">GO!</string>
+    <string name="second">s</string>
+    <string name="tap_to_play">Tap to play!</string>
+    <string name="correct">Correct :)</string>
+    <string name="inCorrect">InCorrect :(</string>
 </resources>
